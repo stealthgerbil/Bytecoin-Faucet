@@ -1,27 +1,15 @@
 <?php
 
 /*
-
-Faucet by Ratnet - Made in México - 2015
-
-I developed this for free to help spread the word about Bytecoin but if you want to tip me, everything will be appreciated :D
-
-Donations to Ratnet Personal Wallet for Developing:
-
-Bytecoin: 28qwqrRWSF7Ad8GjwUgR142yvhmnsa6GGbvf8KpxzWkqU1FEhK5LBijZhXseeQvDzij7cRETY3DPJ3e7opXQc5AhURdFt9U
-Bitcoin: 1MXPDKMSbCr41n2imq2BEMivtu9SJyd4ES
-
-Donations to Ratnet's Bytecoin Faucet:
-Bytecoin: 24gKv1yqZ2oZ7Ln4KWcL3q7D7CXibndxhDzLvrJxxw1x7tiaQ5euuduT9EkHzDta144vmwToddz9Khct4pqSVzuBCxgVTYP
-
+Pegglecoin faucet
 */
 
-$faucetTitle = "Bytecoin Faucet";
-$faucetSubtitle = "Earn up to 50 BCN every 12 hours.";
+$faucetTitle = "Pegglecoin Faucet";
+$faucetSubtitle = "Earn up to 50 Pegglecoin every 12 hours.";
 $logo = "images/logo-white.png";
 
 //Faucet address for donations
-$faucetAddress = "";
+$faucetAddress = "PkTqBMdjgzdbbm2sWdTJCPU5Z7syZXxaFTUDmaUwr7CzRvHjLNwrkkSLDm41S1FWPBdfyroYeAMEoGrwxuwx3NL31XwK4menG";
 
 //Reward time in hours
 $rewardEvery = "12";
@@ -33,10 +21,10 @@ $maxReward = "50.0";
 
 //Database connection
 
-$userDB = "";
-$database = "";
-$passwordDB = "";
-$hostDB = "";
+$userDB = "faucetuser";
+$database = "faucetdb";
+$passwordDB = "lolno";
+$hostDB = "127.0.0.1";
 
 
 //Recaptcha Keys. You can get yours here: https://www.google.com/recaptcha/
